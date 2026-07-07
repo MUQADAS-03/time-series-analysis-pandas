@@ -1,7 +1,7 @@
 # Time Series Analysis with Pandas — Coursework
 
 ## Project Overview
-The repository contains my coursework notebook covering **Time Series Analysis in pandas**. It works through a series of guided recipes that build up pandas' date/time handling capabilities — from basic `datetime` vs. pandas `Timestamp` differences, through slicing, `DatetimeIndex`-only methods, resampling/grouping by time, and finally `merge_asof` for time-based joins.
+The repository contains my coursework notebook covering **Time Series Analysis in pandas**. It works through a series of guided recipes that build up pandas' date/time handling capabilities from basic `datetime` vs. pandas `Timestamp` differences, through slicing, `DatetimeIndex`-only methods, resampling/grouping by time, and finally `merge_asof` for time-based joins.
 
 The notebook uses real-world **Denver crime and traffic accident data**, along with supporting Denver population and employee datasets, to demonstrate each technique on practical, non-trivial data rather than toy examples.
 
@@ -22,8 +22,6 @@ The notebook uses real-world **Denver crime and traffic accident data**, along w
 | `crime.h5` | Denver crime and traffic accident records (HDF5 format), indexed by report date |
 | `denver_pop.csv` | Denver population data by year, used for per-capita crime rate context |
 | `employee.csv` | Supplementary dataset used to illustrate general date/time operations |
-
-> The original notebook references local file paths (e.g. `C:\Users\...\crime.h5`). Before running, update these paths to point to wherever you've placed the source files locally — ideally a `data/` folder alongside the notebook.
 
 ## Repository Structure
 ```
