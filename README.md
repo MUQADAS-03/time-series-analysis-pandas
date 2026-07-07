@@ -23,8 +23,6 @@ The notebook uses real-world **Denver crime and traffic accident data**, along w
 | `denver_pop.csv` | Denver population data by year, used for per-capita crime rate context |
 | `employee.csv` | Supplementary dataset used to illustrate general date/time operations |
 
-> **Note: dataset files are not included in this repository.** They are used locally to run the notebook but are not uploaded here (due to file size / local availability). To re-run this notebook end-to-end, place your own copies of `crime.h5`, `denver_pop.csv`, and `employee.csv` in a local `data/` folder, and update the file paths in the notebook (see below).
-
 > The original notebook references local file paths (e.g. `C:\Users\...\crime.h5`). Before running, update these paths to point to wherever you've placed the source files locally — ideally a `data/` folder alongside the notebook.
 
 ## Repository Structure
@@ -43,8 +41,6 @@ cd time-series-analysis-pandas
 pip install -r requirements.txt
 jupyter notebook Chapter_10_Time_Series_Analysis.ipynb
 ```
-> Note: the notebook will only run fully if you supply your own copies of the datasets listed above and update the file paths accordingly.
-
 > `pandas.read_hdf()` requires the `tables` (PyTables) package, which is included in `requirements.txt`.
 
 ## Key Concepts Practiced
